@@ -1,0 +1,17 @@
+let userName = "manish choudahry";
+var userState = "delhi";
+const userId = 1704191264;
+ userAge = 22;
+
+ //console.log(userName);//
+   
+
+//I'm supposed to uttlise let mostly.//
+  //const is excuted onyl one time...//
+
+ let userName1 = "yogesh choudhary";
+var userLocality = "north-east";
+let userContactNo = "88558585858";
+userVisited = "times"; 
+console.table([userName,userLocality,userVisited,userContactNo,userId]);
+
