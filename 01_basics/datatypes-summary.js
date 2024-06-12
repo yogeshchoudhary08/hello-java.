@@ -33,7 +33,32 @@ let myself ={
     age: 21,
 }
 //const myFunction= function(){
-    console.log("hello dev..!");
+    //console.log("hello dev..!");
 
 
-console.log(typeof myFunction);
+//console.log(typeof myFunction);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//stack mem(primitive )p , heap memo(Non primitive)
+
+
+let mySocialMediaName = "yogesh choudhary008";
+let anotherName = mySocialMediaName;
+anotherName = "code";
+console.log(mySocialMediaName);
+console.log(anotherName);
+
+let user1 = {
+    gmail: "yog@gmail.com",
+    upi: "yog@ypl"
+}
+
+
+let user2 = user1
+
+user2.email = "chotabheemgmail.com"
+
+
