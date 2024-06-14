@@ -59,4 +59,41 @@ const users = [
 //console.log(object.keys(tinderUser));
 //console.log(object.values(tinderUser));
 
-console.log(tinderUser.hasOwnProperty(isLoggrdIn));
+//console.log(tinderUser.hasOwnProperty(isLoggrdIn));
+
+//distructuring ..!
+
+const course = {
+    coursename :"js ",
+    price : "0",
+    courseInstructure : "yogesh"
+}
+//course.courseInstructure
+
+console.log(courseInstructure);
+const {courseInstructure : madeBy}= course /// to changing  inner data 
+
+
+console.log(madeBy);
+
+//  const navbar = ({company}) => {
+// 
+//  }
+//  navbar(company = "yogesh")
+
+
+// {
+//     name : "yogesh ",
+//     cousename :"js",
+//     price : "free"
+// }
+ 
+
+
+// [
+    // {},
+    // {},
+    // {},
+// ]
+
+
