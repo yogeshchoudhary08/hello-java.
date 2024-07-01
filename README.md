@@ -1,2 +1,2 @@
-# hello-java.
+# hello-JavaScript.
 java script.
